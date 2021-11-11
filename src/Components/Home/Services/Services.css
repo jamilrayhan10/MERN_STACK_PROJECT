@@ -1,0 +1,67 @@
+.services_img {
+  overflow: hidden;
+}
+.services_img img {
+  width: 100%;
+  height: 300px;
+}
+.services_img .card-img-top {
+  transition: 0.5s ease;
+}
+.services_card_item {
+  transition: 1s;
+}
+.services_card_item:hover {
+  box-shadow: 2px 2px 15px 4px rgb(207, 207, 207);
+}
+.sec_title h2 {
+  font-size: 48px;
+  color: var(--heading-color);
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 65px;
+  position: relative;
+}
+
+.service_text h3 {
+  font-size: 28px;
+  color: var(--heading-color);
+  font-weight: 500;
+}
+.service_text p {
+  color: var(--paragraph-color);
+  line-height: 26px;
+}
+.spiner span {
+  display: block;
+  margin: auto;
+  z-index: 99;
+}
+/* ----------------------media query---------------- */
+
+/* ----------tablet size----------------- */
+@media (max-width: 768px) {
+  .sec_title h2::before {
+    visibility: hidden;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .sec_title h2 {
+    line-height: 60px;
+  }
+}
+/* ---- mobile device---- */
+@media (min-width: 375px) and (max-width: 576px) {
+  .sec_title h2 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+}
+/* ---- small mobile device---- */
+@media (max-width: 375px) {
+  .sec_title h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}

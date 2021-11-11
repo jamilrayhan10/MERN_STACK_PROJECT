@@ -1,0 +1,17 @@
+.order {
+  margin-top: 150px;
+}
+.orderform {
+}
+.orderform input {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin: 5px 0;
+  outline: none;
+}
+.submitbtn {
+  background-color: rgb(57, 145, 245);
+  border: none;
+  color: white;
+}

@@ -1,0 +1,8 @@
+.order_card {
+  transition: 1s;
+}
+
+.order_card img {
+  width: 100%;
+  height: 200px;
+}

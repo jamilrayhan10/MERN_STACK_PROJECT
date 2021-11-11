@@ -1,0 +1,28 @@
+.make_admin {
+  max-width: 500px;
+  border: 1px solid gray;
+  padding: 20px;
+}
+.make_admin input {
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  margin-top: 30px;
+}
+.make_admin button {
+  width: 100%;
+}
+
+.add_product,
+.admin_btn {
+  background-color: rgb(29, 201, 201);
+  color: #fff;
+  padding: 10px;
+  border: none;
+}

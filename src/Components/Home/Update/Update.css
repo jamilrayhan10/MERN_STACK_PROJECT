@@ -1,0 +1,8 @@
+.updatebtn button {
+  background-color: rgba(230, 230, 230, 0.808);
+  margin: 10px;
+  border-radius: 20px;
+  padding: 7px 20px;
+  color: black;
+  font-weight: 500;
+}

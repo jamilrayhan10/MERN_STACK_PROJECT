@@ -1,0 +1,91 @@
+.navBar_container {
+  background: #c7e8fb;
+  box-shadow: 0 2px 4px 0 rgba(59, 160, 255, 0.2);
+  padding: 10px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  transition: 0.5s ease;
+}
+
+.navBar_sticky {
+  position: fixed;
+  transition: 0.5s ease;
+}
+
+.nav_menu .nav_link {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-color);
+  display: inline-block;
+  margin: 0 15px;
+  padding: 8px 15px;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgb(104 41 41 / 55%);
+  border-color: inherit;
+}
+
+.user_name span {
+  font-style: 18px;
+  font-weight: 500;
+  color: var(--heading-color);
+}
+
+.user_name a {
+  color: #8b0113;
+  font-weight: 600;
+  margin-right: 20px;
+}
+/* ----------------------media query---------------- */
+
+@media screen and (max-width: 991px) {
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("../../../img/menu-bar.svg") !important;
+    font-size: 30px;
+    background-repeat: no-repeat;
+  }
+  .navbar-nav {
+    padding-top: 50px;
+  }
+  .nav_menu .nav_link {
+    margin: 0 0 10px;
+    padding: 0px;
+  }
+}
+
+/* ----mobile device------- */
+@media (min-width: 375px) and (max-width: 576px) {
+  .banner_content h2 {
+    font-size: 38px;
+  }
+  .banner_img {
+    padding-top: 60px;
+  }
+  .afterLogin {
+    display: block;
+  }
+}
+
+/* small mobile device--- */
+@media (max-width: 375px) {
+  .logo {
+    width: 150px;
+  }
+  /* hero banner section */
+  .banner_content h2 {
+    font-size: 28px;
+  }
+  .banner_img {
+    padding-top: 60px;
+  }
+}
