@@ -1,5 +1,10 @@
+.add_service {
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid gray;
+  padding: 10px;
+}
 .addService {
-  margin: 20px auto;
   padding: 30px;
 }
 

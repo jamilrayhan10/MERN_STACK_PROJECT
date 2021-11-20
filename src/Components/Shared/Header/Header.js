@@ -8,6 +8,7 @@ import Logo from "../../images/clocklogo.png";
 const Header = () => {
   // user
   const { user, logout } = useAuth();
+  console.log(logout);
   // change header state
   const [sticky, setSticky] = useState(false);
 

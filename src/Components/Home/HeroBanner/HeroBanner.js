@@ -1,6 +1,5 @@
 import React from "react";
 import "./HeroBanner.css";
-import HerobannerImg from "../../images/banner_clock.jpg";
 
 const Slider = () => {
   return (
@@ -16,13 +15,6 @@ const Slider = () => {
                 everyday routine, TV programming or travel. In built up areas we
                 can't walk for five minutes before seeing a clock.
               </p>
-            </div>
-            <div className="col-lg-6">
-              {/* <img
-                className="img-fluid w-100 h-100"
-                src={HerobannerImg}
-                alt=""
-              /> */}
             </div>
           </div>
         </div>

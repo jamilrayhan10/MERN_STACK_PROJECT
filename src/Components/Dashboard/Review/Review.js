@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useForm } from "react-hook-form";
 import useAuth from "../../../Hooks/useAuth";
+import "./Review.css";
 
 const Review = () => {
   const { user } = useAuth();
@@ -20,11 +21,13 @@ const Review = () => {
   };
   return (
     <div>
-      <div className="py-5 mt-5">
+      <div className="py-5 ">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
-              <h2 className="text-center"> Your Review Form</h2>
+            <div className="review_form col-lg-6">
+              <h2 className="text-center text-danger fw-bold text-lowercase">
+                Your Review Form
+              </h2>
               <form onSubmit={handleSubmit(onSubmit)} className="addService">
                 <input
                   defaultValue={user.displayName}

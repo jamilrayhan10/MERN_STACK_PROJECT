@@ -16,15 +16,15 @@ const AddAProduct = () => {
       });
   };
   return (
-    <div className="py-5 mt-5">
+    <div className="py-5 ">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 add_service">
             <h2 className="text-center">Add any Clock</h2>
             <form onSubmit={handleSubmit(onSubmit)} className="addService">
               <input
                 {...register("name", { required: true, maxLength: 20 })}
-                placeholder="name"
+                placeholder="clock name"
               />
               <input type="number" {...register("price")} placeholder="price" />
               <input {...register("img")} placeholder="img url" />

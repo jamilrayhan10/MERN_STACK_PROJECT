@@ -1,3 +1,13 @@
 .contact {
   padding-top: 100px;
 }
+.contact_form {
+  padding: 15px !important;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .contact_form {
+    display: block !important;
+  }
+}

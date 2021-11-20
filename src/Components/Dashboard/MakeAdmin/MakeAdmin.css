@@ -2,6 +2,7 @@
   max-width: 500px;
   border: 1px solid gray;
   padding: 20px;
+  margin: auto;
 }
 .make_admin input {
   display: block;
